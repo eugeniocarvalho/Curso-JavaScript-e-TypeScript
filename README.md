@@ -8,4 +8,4 @@ Curso de JavaScript e TypeScript do básico ao avançado
 
 <br>
 
-<p>Clique <a src="https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/" alt="Curso de javascript e typescript ">aqui</a> para acessar.</p>
+Clique [aqui](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/) para acessar.
