@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio aula 13</title>
+</head>
+
+<body>
+
+  <script>
+    const name = prompt('Digite seu nome')
+    const res = document.querySelector('body')
+
+    res.innerHTML += `<p>Seu nome é: ${name}</p>
+    <p>Seu nome tem ${name.length} letras</p>
+    <p>A segunda letra do seu nome é: ${name[1]}</p>
+    <p>Qual o primeiro indice da letra a do seu nome? ${name.indexOf('a')}</p>
+    <p>Qual é o último indice da letra a do seu nome? ${name.lastIndexOf('a')}</p>
+    <p>As últimas 3 letras do seu nome são ${name.substring(name.length - 3, name.length)}</p>
+    <p>As palavras dos eu nome são ${name.split(' ')}</p>
+    <p>Seu nome com letras maisuculas ${name.toUpperCase()}</p>
+    <p>Seu nome com letras minusculas ${name.toLowerCase()}</p>`
+  </script>
+</body>
+
+</html>
