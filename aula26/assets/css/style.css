@@ -1,0 +1,78 @@
+:root {
+  --primary-color: rgb(7, 123, 173);
+  --primary-color-dark: rgb(7, 104, 145);
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--primary-color);
+  margin: 0;
+  padding: o;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: .5rem;
+  box-shadow: .1rem .2rem 1rem rgba(0, 0, 0, 0.462);
+}
+
+.imc {
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: 4rem; */
+}
+
+.imc p {
+  line-height: 1em;
+}
+
+form input, form label, form button {
+  width: 90%;
+  display: block;
+  margin-bottom: .8rem;
+  margin: auto;
+}
+
+form input {
+  font-size: 16pt;
+  height: 3rem;
+  padding: 0 1.4rem;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 15pt;
+  font-weight: 700;
+  height: 3rem;
+  cursor: pointer;
+  transition: .2s;
+  margin-top: 1rem;
+}
+
+form button:hover {
+  background-color: var(--primary-color-dark);
+}
+
+#res {
+  width: 90%;
+  margin: auto;
+  background-color: rgba(0, 255, 0, 0.61);
+  text-align: center;
+  border-radius: .15rem;
+}
