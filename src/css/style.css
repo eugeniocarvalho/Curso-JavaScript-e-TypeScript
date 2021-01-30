@@ -1,0 +1,88 @@
+:root {
+  --primary-color: rgb(72, 73, 73);
+  --primary-color-dark: rgb(0, 42, 97);
+}
+
+body {
+  background-color:  var(--primary-color-dark);
+  color: white;
+  font: normal 12pt Arial;
+  text-align: center;
+}
+
+h2 {
+  font: bold 32pt Arial;
+  margin: 3rem 1rem;
+}
+
+p {
+  line-height: 1.8;
+}
+
+p a {
+  color: rgb(75, 153, 255);
+  transition: .2s;
+}
+
+p a:hover {
+  color: white;
+}
+
+.l-cards {
+  display: -webkit-inline-box;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+}
+
+.c-card {
+  background-color: #db2672;
+  border-radius: .6rem;
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  width: 10rem;
+}
+
+.card-img {
+  align-items: start;
+  border-top-left-radius: .6rem;
+  border-top-right-radius: .6rem;
+  display: flex;
+  flex: 5;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-around;
+  padding: .7rem;
+  font-size: 9pt;
+  align-items: center;
+}
+
+.grid-section {
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 1200px) {
+  .c-card {
+    height: 10rem;
+    width: 16rem;
+  }
+
+  #resExercises {
+    width: 80%;
+    margin: auto;
+  }
+
+  #resChallenges {
+    width: 80%;
+    margin: auto;
+  }
+}
