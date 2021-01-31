@@ -1,0 +1,19 @@
+.botao {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.botao a {
+  margin-top: 2rem;
+  text-decoration: none;
+  background-color:  #db2672;
+  color: white;
+  padding: .5rem 1.8rem;
+  border-radius: .5rem;
+  transition: .2s;
+}
+
+.botao a:hover {
+  background-color:  #af1e5b;
+  color: rgb(221, 221, 221);
+}
