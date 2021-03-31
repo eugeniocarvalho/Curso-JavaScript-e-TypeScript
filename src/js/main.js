@@ -47,6 +47,11 @@ const exercisesContents = [{
     name: 'Lista de tarefas',
     url: 'aula48/index.html',
     src: 'img/print48.png'
+  },
+  {
+    name: 'Calculadora',
+    url: 'aula57/index.html',
+    src: 'img/print57.png'
   }
 ];
 
