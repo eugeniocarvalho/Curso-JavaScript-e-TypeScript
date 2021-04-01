@@ -35,13 +35,15 @@ function createCalculator() {
       let val = this.display.value;
 
       try {
-        val = eval(val);
+        const result = /[a-zA-Z]+/.test(val)
 
-        if (val)
+        if (!result) {
+          val = eval(val);
+
           this.display.value = val;
-        else {
+        } else {
           this.buttonClear();
-          return ;
+          return;
         }
 
       } catch (error) {
